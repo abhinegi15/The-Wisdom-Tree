@@ -1,0 +1,486 @@
+/* header toggle  css start */
+
+@media (min-width : 2560px) {
+  .offcanvas {
+    visibility      : visible;
+    position        : relative;
+    background      : none;
+    border          : none;
+    justify-content : end;
+    color           : red;
+  }
+}
+
+@media (max-width : 2560px) {
+  .offcanvas {
+    visibility      : visible;
+    width : 100% !important;
+  }
+
+  .offcanvas-start-lg {
+    top          : 0;
+    left         : 0;
+    border-right : 1px solid rgba(0, 0, 0, .2);
+    transform    : translateX(-100%);
+  }
+
+}
+
+/* header  toggle css end */
+
+
+@media (max-width:1400px){
+
+  /* footer start */
+
+  .widget:nth-child(2) {
+    padding-left: 3rem;
+}
+
+  /* footer end */
+
+}
+
+@media (max-width:1200px){
+
+  section {
+    overflow-x: hidden;
+}
+
+  /* header start */
+
+  .logo {
+    width: 300px;
+}
+
+.nav-cta-btn {
+	height: 40px;
+	padding: 0 16px;
+}
+
+.nav-cta-btn {
+  font-size: 14px;
+}
+
+.header .container-fluid , .header.headerBg .container-fluid{
+  padding: 1rem 1rem !important;
+}
+
+.submenu-wrapper {
+  width: 60%;
+  left: 40%;
+}
+
+.nav-item {
+  width: 40%;
+}
+
+  /* header end */
+
+  /* testimonial start */
+
+.testimonial-intro h1 {
+  font-size: 140px;
+}
+
+/* testimonial end */
+
+ /* news  start */
+.news-event-sec svg {
+  width: 80%;
+}
+
+
+  /* news end */
+
+    /* footer start */
+
+  .social-link li a i {
+    font-size: 18px;
+}
+
+.widget p, .widget a, .widget ul li {
+  padding: 4px;
+}
+    /* footer end */
+
+
+}
+
+@media (max-width:991px){
+
+
+  /* header start */
+
+  .logo {
+    width: 240px;
+}
+.nav-cta-btn {
+  font-size: 12px;
+}
+  /* header end */
+
+  /* welcoming section start */
+  .welcoming-left-outer {
+    width: 100%;
+  }
+
+  .welcoming-left-inner {
+    transform: translate(0%, -6rem);
+}
+
+  .welcoming-left-inner.text-end {
+    text-align: center !important;
+}
+.title {
+  margin-top: 3rem;
+}
+
+  /* welcoming section end */
+
+  /* news section start */
+  .news-event-sec svg {
+    width: 70%;
+}
+  /*  news section end */
+
+    /*  acadmics section start */
+  .green-wrapper::after {
+    top: 2%;
+    height: 100%;
+
+}
+    /*  acadmics section end */
+
+  /* testimonial start */
+
+  .testimonial-intro h1 {
+    font-size: 100px;
+  }
+
+  .testimonial-intro h2 {
+    bottom: -40px;
+}
+  
+  /* testimonial end */
+}
+
+@media (max-width:767px){
+
+  section{
+     padding-left: 16px;
+     padding-right: 16px;
+  }
+
+  .title {
+    font-size: 34px;
+    line-height: 46px;
+}
+
+  /* header start */
+  .logo {
+    width: 250px;
+    margin-bottom: 2rem;
+}
+
+.nav-right-btn {
+  justify-content: center !important;
+}
+
+.nav-right-menu {
+  position: absolute;
+  right: 10px;
+  top: -70px;
+}
+
+.nav-cta-btn {
+  padding: 0 10px;
+}
+
+
+/* submenu css start */
+
+.submenu-wrapper {
+	width: 100%;
+	left: 0%;
+	background: none;
+	background-color: var(--blue);
+	z-index: -1;
+}
+
+.active-list .submenu-wrapper {
+	z-index: 1;
+  overflow-y: auto;
+}
+
+.active-list .submenu li {
+  /* flex: 0 0 80%; */
+  width: 80%;
+}
+
+.nav-item {
+  width: 100%;
+}
+
+
+.active-list .level2 {
+  padding: 1rem 0;
+}
+
+.submenu li a {
+  font-weight: 500;
+}
+
+.back-menu-mobile {
+  opacity: 0;
+  width: 30px;
+  height: 30px;
+}
+
+.back-menu-mobile i{
+  color: var(--white);
+  font-size: 20px;
+}
+
+.active-list .back-menu-mobile {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.nav-item .submenu , .nav-item:hover .submenu{
+opacity: 0 !important;
+}
+
+
+
+.active-list .submenu , .nav-item.active-list:hover .submenu {
+  padding: 0;
+  margin-top: 5rem;
+  opacity: 1 !important;
+}
+
+.submenu-wrapper {
+	transition: all 0s ease-in-out;
+}
+
+/* submenu css end */
+
+ /* header end  */
+
+ /* feature section start */
+
+ #feature-slider .owl-nav {
+  justify-content: center;
+  padding-right: 0px;
+}
+
+ /* feature section end */
+
+/* quote section start */
+
+ .quote-mahatma-gandhi-sec::before {
+  bottom: 22px;
+  left: -30px;
+  width: 160px;
+  height: 350px;
+
+}
+
+.quote-mahatma-gandhi-sec::after {
+  top: -20px;
+  right: -46px;
+}
+
+/* quote section end */
+
+/* news section start */
+
+.news-holder {
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+/* news section end */
+
+/* our values section start */
+
+.mission-strategy-values-sec  h2 {
+  font-size: 58px;
+}
+
+.strategy h2::after {
+  left: -200px;
+}
+
+.values h2::after {
+  left: -190px;
+}
+
+/* our values section end */
+
+/* acadmics section start */
+
+.green-wrapper::after {
+  top: 8%;
+  height: 94%;
+}
+
+/* acadmics section end */
+
+/* testimonials section start */
+
+.testimonial-intro h1 {
+  font-size: 60px;
+}
+
+.testimonial-intro h2 {
+  bottom: -28px;
+  font-size: 50px;
+}
+
+#testimonial-slider .owl-lazy {
+  flex-direction: column;
+}
+
+.testimonial-image img {
+  height: 400px;
+  object-fit: cover;
+}
+
+/* testimonials section end */
+
+ /* footer start */
+ .footer-top{
+  display: block !important;
+}
+
+.widget {
+  margin-top: 3rem !important;
+}
+
+.widget ul{
+  padding-left: 0;
+}
+ /* fotoer end  */
+}
+
+@media (max-width:500px){
+
+  p{
+    text-align: justify;
+  }
+
+  /* header start */
+  .logo {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.nav-right-menu {
+  top: -55px;
+}
+
+.headerBg .nav-right-btn {
+  display: none !important;
+}
+
+  /* header end */
+
+    /* feature section start */
+
+  .feature-slider-content .caption {
+    text-align: left;
+}
+
+  /* feature section end */
+}
+
+@media (max-width:420px){
+
+    /* feature section start */
+
+  .feature-slider-content .caption {
+    font-size: 15px;
+}
+    /* feature section end */
+
+  /* quote section start */
+  .quote-mahatma-gandhi-sec::before {
+    left: -50px;
+}
+
+.quote-mahatma-gandhi-sec::after {
+  right: -55px;
+}
+  /* quote section end */
+
+  /* news section start */
+
+  .news-holder {
+    align-items: start !important;
+}
+
+.news-content .news-title {
+  font-size: 24px;
+}
+
+.news-date .date {
+  font-size: 30px;
+}
+
+.news-date .month {
+  font-size: 24px;
+}
+
+  /* news section end */
+
+  /* our values section start */
+
+  .strategy h2::after , .values h2::after , .mission h2::after {
+    left: 0px;
+    top: -115px;
+}
+
+
+
+.mission-strategy-values-sec p, .acadmics p {
+  font-size: 18px;
+  line-height: 34px;
+}
+
+.mission-strategy-values-sec  h2 {
+  font-size: 40px;
+}
+  /* our values section end */
+
+  .green-wrapper::after {
+    top: 10%;
+    height: 90%;
+}
+
+  /* testimonial section start */
+
+  .testimonial-intro h1 {
+    font-size: 49px;
+}
+
+  /* testimonial section end */
+
+  /* footer start */
+
+  .footer-logo {
+    margin-top: -50px;
+}
+
+.footer-logo img {
+  width: 100px;
+}
+
+footer h2{
+  font-size: 28px;
+}
+
+  /* footer end */
+
+}
